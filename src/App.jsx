@@ -1,9 +1,12 @@
+import { Outlet } from 'react-router-dom'
 import './App.css'
+import Navbar from './components/Navbar/Navbar'
 
 function App() {
   return (
     <>
-      <h1 className='text-primary pt-5'>quick mark</h1>
+      <Navbar></Navbar>
+     <Outlet></Outlet>
     </>
   )
 }

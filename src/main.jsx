@@ -16,11 +16,23 @@ import "././assets/css/style.min.css";
 
 
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
+import Home from './pages/Home/Home.jsx';
+import Blog from './pages/Blog/Blog.jsx';
 
 const router = createBrowserRouter([
   {
     path: "/",
-    element: <App/>,
+    element: <App />,
+    children: [
+      {
+        path: "/",
+        element: <Home></Home>,
+      },
+      {
+        path: "/blog",
+        element: <Blog></Blog>
+      }
+    ],
   },
 ]);
 createRoot(document.getElementById("root")).render(
