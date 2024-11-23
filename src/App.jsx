@@ -1,16 +1,18 @@
-import { Outlet } from 'react-router-dom'
-import './App.css'
-import Navbar from './components/Navbar/Navbar'
-import Footer from './components/Footer'
+import "./App.css";
+import { Outlet } from "react-router-dom";
+import Navbar from "./components/Navbar/Navbar";
+import Footer from "./components/Footer";
 
 function App() {
   return (
     <>
       <Navbar></Navbar>
-      <Outlet></Outlet>
+      <div className="min-vh-100">
+        <Outlet></Outlet>
+      </div>
       <Footer></Footer>
     </>
-  )
+  );
 }
 
-export default App
+export default App;
