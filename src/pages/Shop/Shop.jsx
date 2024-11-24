@@ -4,6 +4,9 @@ import data from "../../products.json";
 import ProductCards from "./ProductCards";
 import Pagination from "./Pagination";
 import Search from "./Search";
+import ShopCategory from "./ShopCategory";
+import PopularPost from "./PopularPost";
+import Tags from "./Tags";
 const showResults = "Showing 01 - 12 of 139 Results";
 const Shop = () => {
   const [GridList, setGridList] = useState(true);
@@ -19,6 +22,18 @@ const Shop = () => {
     setCurrentPage(pageNumber);
   } 
 
+  // filter products based on category 
+  const [selectedCategory, setSelectedCategory] = useState("All");
+  const menuItem = [...new Set(data.map((value) => value.category))];
+
+  const filterItem = (currentCategory) => { 
+    const newItem = data.filter((newValue) => {
+      return newValue.category === currentCategory;
+    });
+
+    setSelectedCategory(currentCategory);
+    setProducts(newItem);
+  }
 
   return (
     <div>
@@ -63,6 +78,14 @@ const Shop = () => {
             <div className="col-lg-4 col-12">
               <aside>
                 <Search products={products} GridList={GridList}></Search>
+                <ShopCategory
+                  filterItem={filterItem}
+                  setItem={setProducts}
+                  menuItem={menuItem}
+                  setProducts={setProducts}
+                  selectedCategory={selectedCategory}></ShopCategory>
+                <PopularPost></PopularPost>
+                <Tags></Tags>
               </aside>
             </div>
           </div>
