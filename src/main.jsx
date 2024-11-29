@@ -18,6 +18,9 @@ import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import Home from "./pages/Home/Home.jsx";
 import Blog from "./pages/Blog/Blog.jsx";
 import Shop from "./pages/Shop/Shop.jsx";
+import SingleProduct from "./pages/Shop/SingleProduct.jsx";
+import CartPage from "./pages/Shop/CartPage.jsx";
+import Contact from "./pages/Contact/Contact.jsx";
 
 const router = createBrowserRouter([
   {
@@ -31,6 +34,18 @@ const router = createBrowserRouter([
       {
         path: "/shop",
         element: <Shop></Shop>,
+      },
+      {
+        path: "/shop/:id",
+        element: <SingleProduct></SingleProduct>
+      },
+      {
+        path: "/cart-page",
+        element: <CartPage></CartPage>
+      },
+      {
+        path: "/contact",
+        element: <Contact></Contact>
       },
       {
         path: "/blog",

@@ -74,6 +74,7 @@ const Shop = () => {
                   activePage={currentPage}
                 ></Pagination>
               </article>
+              
             </div>
             <div className="col-lg-4 col-12">
               <aside>
