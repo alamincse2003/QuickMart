@@ -8,37 +8,37 @@ const desc =
 
 const clientsList = [
   {
-    imgUrl: "/src/assets/images/clients/avater.jpg",
+    imgUrl: "/images/clients/avater.jpg",
     imgAlt: "education thumb rajibraj91 rajibraj",
     text: "Al Amin",
   },
   {
-    imgUrl: "/src/assets/images/clients/avater.jpg",
+    imgUrl: "/images/clients/avater.jpg",
     imgAlt: "education thumb rajibraj91 rajibraj",
     text: "Habib",
   },
   {
-    imgUrl: "/src/assets/images/clients/avater.jpg",
+    imgUrl: "/images/clients/avater.jpg",
     imgAlt: "education thumb rajibraj91 rajibraj",
     text: "Mehejabul",
   },
   {
-    imgUrl: "/src/assets/images/clients/avater.jpg",
+    imgUrl: "/images/clients/avater.jpg",
     imgAlt: "education thumb rajibraj91 rajibraj",
     text: "Morshed",
   },
   {
-    imgUrl: "/src/assets/images/clients/avater.jpg",
+    imgUrl: "/images/clients/avater.jpg",
     imgAlt: "education thumb rajibraj91 rajibraj",
     text: "Sojal",
   },
   {
-    imgUrl: "/src/assets/images/clients/avater.jpg",
+    imgUrl: "/images/clients/avater.jpg",
     imgAlt: "education thumb rajibraj91 rajibraj",
     text: "Billah",
   },
   {
-    imgUrl: "/src/assets/images/clients/avater.jpg",
+    imgUrl: "/images/clients/avater.jpg",
     imgAlt: "education thumb rajibraj91 rajibraj",
     text: "Alif",
   },
