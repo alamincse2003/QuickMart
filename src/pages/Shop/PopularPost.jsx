@@ -41,12 +41,13 @@ const PopularPost = () => {
         {postList.map((blog, index) => (
           <li key={index} className="d-flex flex-wrap justify-content-between">
             <div className="post-thumb">
-              <Link to={`/blog/${blog.id}`}>
+              <Link to="#">
+                {/* {`/blog/${blog.id}`} */}
                 <img src={blog.imgUrl} alt="" />
               </Link>
             </div>
             <div className="post-content">
-              <Link to={`/blog/${blog.id}`}>
+              <Link to="#">
                 <h5>{blog.title}</h5>
               </Link>
               <p>{blog.date}</p>

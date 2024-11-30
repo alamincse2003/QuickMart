@@ -23,7 +23,7 @@ const Navbar = () => {
       <div className={`header-top d-md-none ${socialToggle ? "open" : ""}`}>
         <div className="container">
           <div className="header-top-area">
-            <Link to="/signup" className="lab-btn me-3">
+            <Link to="/sign-up" className="lab-btn me-3">
               <span>Create Account</span>
             </Link>
             <Link to="/login">Log In</Link>
@@ -52,12 +52,12 @@ const Navbar = () => {
                   <li>
                     <Link to="/shop">Shop</Link>
                   </li>
-                  <li>
+                  {/* <li>
                     <Link to="/blog">Blog</Link>
                   </li>
                   <li>
                     <Link to="/about">About</Link>
-                  </li>
+                  </li> */}
                   <li>
                     <Link to="/contact">Contact</Link>
                   </li>

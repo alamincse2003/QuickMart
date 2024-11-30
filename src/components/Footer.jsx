@@ -1,17 +1,17 @@
 import React from "react";
 import { Link } from "react-router-dom";
 
-const title = "About ShopCart";
+const title = "About Quick Mart";
 const desc =
-  "Eduaid theme number one world class university in the world There are student are studing always in this university for all time.";
+  "QuickMart  online store for a seamless shopping experience, offering a wide range of quality products at unbeatable prices, with fast and reliable delivery";
 const ItemTitle = "Categories";
 const quickTitle = "Quick Links";
 const tweetTitle = "Recent Tweets";
 
 const addressList = [
-  { iconName: "icofont-google-map", text: "New York, USA." },
-  { iconName: "icofont-phone", text: "+880 123 456 789" },
-  { iconName: "icofont-envelope", text: "info@shopcart.com" },
+  { iconName: "icofont-google-map", text: "Mirpur, Dhaka." },
+  { iconName: "icofont-phone", text: "+880 155 555 555" },
+  { iconName: "icofont-envelope", text: "quick@mart.com" },
 ];
 
 const socialList = [
@@ -28,7 +28,7 @@ const ItemList = [
   { text: "Blog", link: "/blog" },
   { text: "About", link: "/about" },
   { text: "Policy", link: "#" },
-  { text: "FAQs", link: "/about" },
+  { text: "FAQs", link: "#" },
 ];
 
 const quickList = [
@@ -43,18 +43,17 @@ const quickList = [
 const tweetList = [
   {
     iconName: "icofont-twitter",
-    desc: "Aminur islam @ShopCart Greetings! #HTML_Template Grab your item, 50% Big Sale Offer !!",
+    desc: "@QuickMart Greetings! #E-commerce Website !!",
   },
   {
     iconName: "icofont-twitter",
-    desc: "Somrat islam @ShopCart Hey! #HTML_Template Grab your item, 50% Big Sale Offer !!",
+    desc: "@QuickMart Greetings! #E-commerce Website !!",
   },
 ];
 const footerbottomList = [
-  { text: "Faculty", link: "#" },
-  { text: "Staff", link: "#" },
-  { text: "Students", link: "#" },
-  { text: "Alumni", link: "#" },
+  { text: "Home", link: "/" },
+  { text: "Shop", link: "/shop" },
+  { text: "Contact", link: "/contact" },
 ];
 const Footer = () => {
   return (
@@ -161,7 +160,7 @@ const Footer = () => {
           <div className="footer-bottom">
               <div className="container">
                   <div className="section-wrapper">
-                      <p>&copy; 2024 <Link to="/">Shop Cart</Link>Designed by <a href="/" target="_blank">Al Amin</a></p>
+                      <p>&copy; 2024 <Link to="/">Quick Mart</Link>Designed by <a href="/" target="_blank">Al Amin</a></p>
                       <div className="footer-bottom-list">
                           {
                               footerbottomList.map((value, index) => (

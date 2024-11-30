@@ -1,5 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
+
 const title = "More Then 60,000 Customers";
 
 const desc =
@@ -9,37 +10,37 @@ const clientsList = [
   {
     imgUrl: "/src/assets/images/clients/avater.jpg",
     imgAlt: "education thumb rajibraj91 rajibraj",
-    text: "Join with Us",
+    text: "Al Amin",
   },
   {
     imgUrl: "/src/assets/images/clients/avater.jpg",
     imgAlt: "education thumb rajibraj91 rajibraj",
-    text: "Join with Us",
+    text: "Habib",
   },
   {
     imgUrl: "/src/assets/images/clients/avater.jpg",
     imgAlt: "education thumb rajibraj91 rajibraj",
-    text: "Join with Us",
+    text: "Mehejabul",
   },
   {
     imgUrl: "/src/assets/images/clients/avater.jpg",
     imgAlt: "education thumb rajibraj91 rajibraj",
-    text: "Join with Us",
+    text: "Morshed",
   },
   {
     imgUrl: "/src/assets/images/clients/avater.jpg",
     imgAlt: "education thumb rajibraj91 rajibraj",
-    text: "Join with Us",
+    text: "Sojal",
   },
   {
     imgUrl: "/src/assets/images/clients/avater.jpg",
     imgAlt: "education thumb rajibraj91 rajibraj",
-    text: "Join with Us",
+    text: "Billah",
   },
   {
     imgUrl: "/src/assets/images/clients/avater.jpg",
     imgAlt: "education thumb rajibraj91 rajibraj",
-    text: "Join with Us",
+    text: "Alif",
   },
 ];
 const LocationSprade = () => {

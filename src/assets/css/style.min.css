@@ -1,17 +1,4 @@
 ﻿@import"https://fonts.googleapis.com/css2?family=Barlow:wght@100;200;300;400;500;600;700;800;900&display=swap";
-
-/*! @@@@@@@@@@@@@@@@@@@@@@
-
-Template Name: Edukon
-Template URI: https://themeforest.net/user/CodexCoder
-Author: CodexCoder
-Author URI: https://themeforest.net/user/CodexCoder
-Description: Description
-Version: 1.0.0
-Text Domain: edukon
-Tags: academy, children, education, institute, kids, kids care, kids care home, kids school, kinder garden, kindergarten, nursery, play school, pre-school, responsive
-
-@@@@@@@@@@@@@@@@@@@@@@ */
 .news-letter .section-wrapper,
 footer.style-2 .footer-bottom .section-wrapper,
 footer.style-2 .footer-top .footer-item.twitter-post .footer-inner .footer-content .content ul li,
@@ -6669,7 +6656,7 @@ button {
 }
 
 .clients-section.style-2 .section-header .title {
-    margin-top: -14px
+    margin-top: -14px;
 }
 
 @media(min-width: 992px) {
@@ -9592,5 +9579,3 @@ footer.style-2 .footer-top.dark-view * {
         margin-top: 0
     }
 }
-
-/*# sourceMappingURL=style.min.css.map */

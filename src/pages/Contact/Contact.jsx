@@ -20,19 +20,19 @@ const contactList = [
     imgUrl: "/src/assets/images/icon/02.png",
     imgAlt: "contact icon",
     title: "Phone number",
-    desc: "+22698 745 632,02 982 745",
+    desc: "+015 555 555 55",
   },
   {
     imgUrl: "/src/assets/images/icon/03.png",
     imgAlt: "contact icon",
     title: "Send email",
-    desc: "admin@shopcart.com",
+    desc: "quick@mart.com",
   },
   {
     imgUrl: "/src/assets/images/icon/04.png",
     imgAlt: "contact icon",
     title: "Our website",
-    desc: "www.shopcart.com",
+    desc: "www.quickmart.com",
   },
 ];
 const Contact = () => {

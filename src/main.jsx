@@ -68,7 +68,7 @@ const router = createBrowserRouter([
   {
     path: "/sign-up",
     element: <Signup></Signup>,
-  }
+  },
 ]);
 createRoot(document.getElementById("root")).render(
   <StrictMode>
