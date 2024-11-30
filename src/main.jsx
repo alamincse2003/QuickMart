@@ -21,6 +21,9 @@ import Shop from "./pages/Shop/Shop.jsx";
 import SingleProduct from "./pages/Shop/SingleProduct.jsx";
 import CartPage from "./pages/Shop/CartPage.jsx";
 import Contact from "./pages/Contact/Contact.jsx";
+import AuthProvider from "./contexts/AuthProvider.jsx";
+import PrivateRoute from "./PrivateRoute/PrivateRoute.jsx";
+import Login from "./components/Login.jsx";
 
 const router = createBrowserRouter([
   {
@@ -37,15 +40,19 @@ const router = createBrowserRouter([
       },
       {
         path: "/shop/:id",
-        element: <SingleProduct></SingleProduct>
+        element: <SingleProduct></SingleProduct>,
       },
       {
         path: "/cart-page",
-        element: <CartPage></CartPage>
+        element: (
+          <PrivateRoute>
+            <CartPage></CartPage>
+          </PrivateRoute>
+        ),
       },
       {
         path: "/contact",
-        element: <Contact></Contact>
+        element: <Contact></Contact>,
       },
       {
         path: "/blog",
@@ -53,9 +60,15 @@ const router = createBrowserRouter([
       },
     ],
   },
+  {
+    path: "/login",
+    element: <Login></Login>,
+  },
 ]);
 createRoot(document.getElementById("root")).render(
   <StrictMode>
-    <RouterProvider router={router} />
+    <AuthProvider>
+      <RouterProvider router={router} />
+    </AuthProvider>
   </StrictMode>
 );
