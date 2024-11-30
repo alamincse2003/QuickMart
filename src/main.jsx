@@ -24,6 +24,7 @@ import Contact from "./pages/Contact/Contact.jsx";
 import AuthProvider from "./contexts/AuthProvider.jsx";
 import PrivateRoute from "./PrivateRoute/PrivateRoute.jsx";
 import Login from "./components/Login.jsx";
+import Signup from "./components/Signup.jsx";
 
 const router = createBrowserRouter([
   {
@@ -64,6 +65,10 @@ const router = createBrowserRouter([
     path: "/login",
     element: <Login></Login>,
   },
+  {
+    path: "/sign-up",
+    element: <Signup></Signup>,
+  }
 ]);
 createRoot(document.getElementById("root")).render(
   <StrictMode>
