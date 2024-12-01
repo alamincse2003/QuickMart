@@ -1,5 +1,9 @@
 # QuickMart (E-commerce Website)
 
+## Demo  
+
+🌐 Live Demo: https://quickmart-demo.surge.sh/
+
 ![image](https://github.com/user-attachments/assets/2af65967-4801-4896-b613-42d7dde938f9)
 
 
@@ -16,10 +20,6 @@
 - **Frontend**: React.js  
 - **State Management**: Context API  
 - **Styling**: Bootstrap 
-
-## Demo  
-
-🌐 Live Demo: https://quickmart-demo.surge.sh/
 
 ## Installation  
 # npm install
